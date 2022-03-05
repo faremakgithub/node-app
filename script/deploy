@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh node-app@144.91.127.99 <<EOF
+ssh jenkins@144.91.127.99 <<EOF
  cd /var/www/html/ultra-tic/node-app
  git pull
  npm install — production
