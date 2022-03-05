@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh node-app@144.91.127.99 <<EOF
+ssh uticadmin@144.91.127.99 <<EOF
  sudo cd /var/www/html/ultra-tic/node-app
  sudo git pull
  sudo npm install — production
