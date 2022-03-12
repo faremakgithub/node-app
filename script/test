@@ -1,3 +1,2 @@
 #!/bin/sh
-npm audit fix --force
 ./node_modules/.bin/mocha ./test/test.js
